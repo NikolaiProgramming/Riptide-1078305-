@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+  <html>
+    <link rel="stylesheet" href=".css"> 
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <div class="captured">
+        <div class="capturedBlack"></div>
+        <div class="capturedAlignHorizontal"></div>
+        <div class="capturedAlignHorizontal"></div>
+      </div>
+      <div class="capturedBlackAlign"></div>
+      <div class="chessBoard">
+        <div class="notationRank">
+          <div class="notationNumber">8</div>
+          <div class="notationNumber">7</div>
+          <div class="notationNumber">6</div>
+          <div class="notationNumber">5</div>
+          <div class="notationNumber">4</div>
+          <div class="notationNumber">3</div>
+          <div class="notationNumber">2</div>
+          <div class="notationNumber">1</div>
+          <div class="indicator white"></div>
+          <div class="captured">
+            <div class="capturedAlignVertical"></div>
+            <div class="capturedAlignHorizontal"></div>
+            <div class="capturedWhite"></div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="square white" id="18"><div class="fakeChild"></div><div class="piece blackType blackRook" ></div></div>
+          <div class="square black" id="17"><div class="fakeChild"></div><div class="piece blackType blackPawn" ></div></div>
+          <div class="square white" id="16"></div>
+          <div class="square black" id="15"></div>
+          <div class="square white" id="14"></div>
+          <div class="square black" id="13"></div>
+          <div class="square white" id="12"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square black" id="11"><div class="piece whiteType whiteRook" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">A(1)</div>
+        </div>
+        <div class="file">
+          <div class="square black" id="28"><div class="piece blackType blackKnight" ></div></div>
+          <div class="square white" id="27"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square black" id="26"></div>
+          <div class="square white" id="25"></div>
+          <div class="square black" id="24"></div>
+          <div class="square white" id="23"></div>
+          <div class="square black" id="22"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square white" id="21"><div class="piece whiteType whiteKnight" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">B(2)</div>
+        </div>
+        <div class="file">
+          <div class="square white" id="38"><div class="piece blackType blackBishop" ></div></div>
+          <div class="square black" id="37"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square white" id="36"></div>
+          <div class="square black" id="35"></div>
+          <div class="square white" id="34"></div>
+          <div class="square black" id="33"></div>
+          <div class="square white" id="32"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square black" id="31"><div class="piece whiteType whiteBishop" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">C(3)</div>
+        </div>
+        <div class="file">
+          <div class="square black" id="48"><div class="piece blackType blackQueen" ></div></div>
+          <div class="square white" id="47"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square black" id="46"></div>
+          <div class="square white" id="45"></div>
+          <div class="square black" id="44"></div>
+          <div class="square white" id="43"></div>
+          <div class="square black" id="42"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square white" id="41"><div class="piece whiteType whiteQueen" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">D(4)</div>
+        </div>
+        <div class="file">
+          <div class="square white" id="58"><div class="piece blackType blackKing" ></div></div>
+          <div class="square black" id="57"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square white" id="56"></div>
+          <div class="square black" id="55"></div>
+          <div class="square white" id="54"></div>
+          <div class="square black" id="53"></div>
+          <div class="square white" id="52"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square black" id="51"><div class="piece whiteType whiteKing" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">E(5)</div>
+        </div>
+        <div class="file">
+          <div class="square black" id="68"><div class="piece blackType blackBishop" ></div></div>
+          <div class="square white" id="67"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square black" id="66"></div>
+          <div class="square white" id="65"></div>
+          <div class="square black" id="64"></div>
+          <div class="square white" id="63"></div>
+          <div class="square black" id="62"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square white" id="61"><div class="piece whiteType whiteBishop" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">F(6)</div>
+        </div>
+        <div class="file">
+          <div class="square white" id="78"><div class="piece blackType blackKnight" ></div></div>
+          <div class="square black" id="77"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square white" id="76"></div>
+          <div class="square black" id="75"></div>
+          <div class="square white" id="74"></div>
+          <div class="square black" id="73"></div>
+          <div class="square white" id="72"><div class="piece whiteType whitePawn"></div></div>
+          <div class="square black" id="71"><div class="piece whiteType whiteKnight"></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">G(7)</div>
+        </div>
+        <div class="file">
+          <div class="square black" id="88"><div class="piece blackType blackRook" ></div></div>
+          <div class="square white" id="87"><div class="piece blackType blackPawn" ></div></div>
+          <div class="square black" id="86"></div>
+          <div class="square white" id="85"></div>
+          <div class="square black" id="84"></div>
+          <div class="square white" id="83"></div>
+          <div class="square black" id="82"><div class="piece whiteType whitePawn" ></div></div>
+          <div class="square white" id="81"><div class="piece whiteType whiteRook" ></div></div>
+          <div class="notationFileAlign"></div>
+          <div class="notationFile">H(8)</div>
+        </div>
+        </div>
+     
+        </div>
+      </div>
+      <div class="fake" id="10"><div class="fakeChild"></div></div>
+      <div class="fake" id="19"><div class="fakeChild"></div></div>
+      <div class="fake" id="20"><div class="fakeChild"></div></div>
+      <div class="fake" id="29"><div class="fakeChild"></div></div>
+      <div class="fake" id="30"><div class="fakeChild"></div></div>
+      <div class="fake" id="39"><div class="fakeChild"></div></div>
+      <div class="fake" id="40"><div class="fakeChild"></div></div>
+      <div class="fake" id="49"><div class="fakeChild"></div></div>
+      <div class="fake" id="50"><div class="fakeChild"></div></div>
+      <div class="fake" id="59"><div class="fakeChild"></div></div>
+      <div class="fake" id="60"><div class="fakeChild"></div></div>
+      <div class="fake" id="69"><div class="fakeChild"></div></div>
+      <div class="fake" id="70"><div class="fakeChild"></div></div>
+      <div class="fake" id="79"><div class="fakeChild"></div></div>
+      <div class="fake" id="80"><div class="fakeChild"></div></div>
+      <div class="fake" id="89"><div class="fakeChild"></div></div>
+      <script src=".js"></script> 
+    </body>
+  </html>
